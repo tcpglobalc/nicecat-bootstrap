@@ -1,0 +1,35 @@
+name: Renew signed bootstrap
+on:
+  schedule:
+    - cron: '21 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bootstrap-publication
+  cancel-in-progress: false
+jobs:
+  renew:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out metadata repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Renew only when fewer than 21 days remain
+        env:
+          DISCOVERY_SIGNING_KEY_JSON: ${{ secrets.DISCOVERY_SIGNING_KEY_JSON }}
+          DISCOVERY_AES_KEY_JSON: ${{ secrets.DISCOVERY_AES_KEY_JSON }}
+        run: node scripts/renew-bootstrap.mjs bootstrap.json
+      - name: Commit renewed encrypted metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- bootstrap.json; then exit 0; fi
+          git config user.name 'nicecat-bootstrap'
+          git config user.email 'bootstrap@users.noreply.github.com'
+          git add -- bootstrap.json
+          git commit -m 'Renew signed bootstrap validity'
+          gh auth setup-git
+          git push origin HEAD:main
