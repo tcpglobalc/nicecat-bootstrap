@@ -1,0 +1,9 @@
+{
+  "format": "nicecat-bootstrap-v1",
+  "key_id": "nicecat-bootstrap-aes-20261111",
+  "signing_key_id": "nicecat-discovery-20261111",
+  "nonce": "A0tZ1iIbiEYmdyuN",
+  "ciphertext": "ns7ls4k6yqqkTyiL5mqz20BNycHbJGq8xKKcqCy6Pdn8mJIeotRykYiTuHcOtMmmkUyXD+SWvNES6sMAL4Y2V0sSghC3qXU1zi7RqiYxPYAeSeplLjqWSv5bI32lh+wuRHej7pGVkvyK1TNegav2sKHIEePDYyf83mCrxOCnAsnEc35GV9GN0ZBTqfjwQ5P39ThxMP2lUPjegu2xeg==",
+  "tag": "67mS+eVbENt1l4edFnZCuA==",
+  "signature": "sdwnMWP2U5cFc4AAJ0D4VgrZMdtqpiC6p9mc1zslyTTWa8jACZUTTxunRQcBUUt8tNhJA0amvLY5dWsM6fHrBA=="
+}
