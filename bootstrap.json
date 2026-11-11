@@ -2,8 +2,8 @@
   "format": "nicecat-bootstrap-v1",
   "key_id": "nicecat-bootstrap-aes-20261111",
   "signing_key_id": "nicecat-discovery-20261111",
-  "nonce": "3MQy9zZCqW6Gv474",
-  "ciphertext": "9XD1VfeR2toDE6OyFKkgE4TEJzJV8mqiyNG9MQpKQTUsXPpzEMJy0Lc+QafTDIRoh60wlgTp0AUiWfZlxzMN/Shxr0LKnJE/1TFTWnxGTZ0+IoHubsTF2pMZ9BE1l3up6b/huQGCzLc6c5NcP00QXXN1M03lqSRuCkr33gp7pXVo0kw0LP/fKqwfzSo1VL1N+UZgCmAzo41aHlfKDfDRBigYvRd9FBQwzSCpR2qM7ZhX+2QLBi0kk3F4Tcyl2igUdOMvMQ/Zmq6jcjuRSXWqwgBPmgmL2z8gGFmqaBwXPVS5IoNNmdfSMSgXf6+o9qEQlXjNYb2fUtvG1hMUeyts73s8UsTYQlzonP0QL2p17jUFVKoceu9fiys3g7qY7EU/71RavZE4U/y5l6sZJAHdwA==",
-  "tag": "PgQyjcDqZk/FTirAYX1hBA==",
-  "signature": "EgsJsXlAcZUriZ5lg21SEHln+N+nJTRGl+z+QKgZG6Lb9h5o9IwIoBrwQr7zrcIEF1aPp7WoHBYbTdIeBfxhBg=="
+  "nonce": "eFCpeC47cJOwfxvl",
+  "ciphertext": "TmxnVlWCBC3uAZ2/FEGcs0IhQ3fQTq7mVQGxFYA5l9/doXQMsiyOz7JLT67xTywiXeFOHzoGnGO/y9Q0cHaxMHbMb9dQERTH3vQoDa6cTVmIoH7IveM2yi0y/fcFFc5CO8RixGoK8KEeqjB46K+vHXF/fSTQu2y3o8qJzgXzNeKsSOxP2+jBFIuyEcsMJ1YiCzcWhTy1LzGpYPG+bVLR6bL07gzPzFsI2WH8K6FRbmHrTxOAHFEqwowyTNqPn7kH1rxEoZtganRjOSl/KMBCeLzob2RwTXFvoqZUoTr4GihAzW3DYWnZ/DCJr0zUh49FoKXY1KB+JMy1M7nYJZtYipWaNljQPTSX2b0jc4U/mZk1hmnQYeIDyijpB1JW9N9vCqELggL5lNxWPlyn9U4zJQ==",
+  "tag": "bGLDW1h5zQfq67cZ1vzDAA==",
+  "signature": "0a7L/hDm0PcyOdRcSw0LkpYyucGckyaEUU2jvXbl2TOIkB1N473oxCLCr69iAjhfeqpu/QhZSfem+eEOY2VtDQ=="
 }
